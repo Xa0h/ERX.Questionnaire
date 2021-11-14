@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERX.Questionnaire.Api", "ERX.Questionnaire.Api\ERX.Questionnaire.Api.csproj", "{E1C197A3-0EDC-48EF-B8BB-F882A0111E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERX.Questionnaire.Database", "ERX.Questionnaire.Database\ERX.Questionnaire.Database.csproj", "{0896B299-CCE4-4AEA-BDDD-EA93DC6821F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERX.Questionnaire.DataAccess", "ERX.Questionnaire.DataAccess\ERX.Questionnaire.DataAccess.csproj", "{F1525E90-CA38-4A93-8480-F786B9908198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERX.Questionnaire.Services", "ERX.Questionnaire.Services\ERX.Questionnaire.Services.csproj", "{C20D64F1-36D9-4F38-8816-796B43F83A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERX.Questionnaire.Common", "ERX.Questionnaire.Common\ERX.Questionnaire.Common.csproj", "{1A8CC948-D19F-4BC3-A08C-947BFB38490D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERX.Questionnaire.UnitTest", "ERX.Questionnaire.UnitTest\ERX.Questionnaire.UnitTest.csproj", "{9628365D-5ACA-4612-A23C-9A43008E277C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQl Scripts", "SQl Scripts", "{AA54257C-F1CD-49DB-86C4-B8DDF8DD755A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\ERX Sql Script.sql = ..\..\..\Desktop\ERX Sql Script.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D17D8F4B-48FC-4C94-9507-027D5F7DAFA3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1C197A3-0EDC-48EF-B8BB-F882A0111E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C197A3-0EDC-48EF-B8BB-F882A0111E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C197A3-0EDC-48EF-B8BB-F882A0111E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C197A3-0EDC-48EF-B8BB-F882A0111E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0896B299-CCE4-4AEA-BDDD-EA93DC6821F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0896B299-CCE4-4AEA-BDDD-EA93DC6821F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0896B299-CCE4-4AEA-BDDD-EA93DC6821F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0896B299-CCE4-4AEA-BDDD-EA93DC6821F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1525E90-CA38-4A93-8480-F786B9908198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1525E90-CA38-4A93-8480-F786B9908198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1525E90-CA38-4A93-8480-F786B9908198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1525E90-CA38-4A93-8480-F786B9908198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20D64F1-36D9-4F38-8816-796B43F83A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20D64F1-36D9-4F38-8816-796B43F83A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20D64F1-36D9-4F38-8816-796B43F83A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20D64F1-36D9-4F38-8816-796B43F83A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8CC948-D19F-4BC3-A08C-947BFB38490D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8CC948-D19F-4BC3-A08C-947BFB38490D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8CC948-D19F-4BC3-A08C-947BFB38490D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8CC948-D19F-4BC3-A08C-947BFB38490D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9628365D-5ACA-4612-A23C-9A43008E277C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9628365D-5ACA-4612-A23C-9A43008E277C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9628365D-5ACA-4612-A23C-9A43008E277C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9628365D-5ACA-4612-A23C-9A43008E277C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FC47F2F-5461-4B20-A5A4-4B2A56A5455B}
+	EndGlobalSection
+EndGlobal
